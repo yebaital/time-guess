@@ -1,5 +1,12 @@
 import {useState, useRef} from "react";
 
+/**
+ * Represents a player.
+ *
+ * This component is responsible for displaying the player section and allowing the user to set their name.
+ *
+ * @returns {JSX.Element} The player section with name input and set name button.
+ */
 export default function Player() {
 
     const playerName = useRef();
